@@ -7,13 +7,14 @@ Este proyecto permite crear encuestas, votar y ver resultados en tiempo real uti
 
 ## Estructura
 
-encuestas/
-├── poo/
-│ ├── index.html
-│ └── index.js
-└── pf/
-├── index.html
-└── index.js
+- `encuestas/`
+  - `README.md`
+  - `poo/`
+    - `index.html`
+    - `index.js`
+  - `pf/`
+    - `index.html`
+    - `index.js`
 
 
 Cada carpeta contiene una versión funcional e independiente del sistema de encuestas.
@@ -55,9 +56,7 @@ Cada carpeta contiene una versión funcional e independiente del sistema de encu
 
 ## Autor
 
-Desarrollado por Jonathan Mattisine.
+Desarrollado por Jonathan Mattisine O.
 
 ---
-
-
 
