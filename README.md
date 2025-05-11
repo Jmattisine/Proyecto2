@@ -7,13 +7,14 @@ Este proyecto permite crear encuestas, votar y ver resultados en tiempo real uti
 
 ## Estructura
 
-encuestas/
-├── poo/
-│ ├── index.html
-│ └── index.js
-└── pf/
-├── index.html
-└── index.js
+- `encuestas/`
+  - `README.md`
+  - `poo/`
+    - `index.html`
+    - `index.js`
+  - `pf/`
+    - `index.html`
+    - `index.js`
 
 ## Funcionalidades
 
