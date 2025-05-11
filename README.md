@@ -7,32 +7,57 @@ Este proyecto permite crear encuestas, votar y ver resultados en tiempo real uti
 
 ## Estructura
 
-- `encuestas/`
-  - `README.md`
-  - `poo/`
-    - `index.html`
-    - `index.js`
-  - `pf/`
-    - `index.html`
-    - `index.js`
+encuestas/
+├── poo/
+│ ├── index.html
+│ └── index.js
+└── pf/
+├── index.html
+└── index.js
 
-## Funcionalidades
 
-- Crear encuestas con opciones de respuesta
-- Votar por una opción
-- Ver resultados actualizados
-- Carga inicial de 8 preguntas
+Cada carpeta contiene una versión funcional e independiente del sistema de encuestas.
 
-## Evaluación
+---
 
-| Área | Descripción |
-|------|-------------|
-| Aritmética y comparación | Uso de `++`, `%`, `>=`, `<` |
-| Control de flujo | `if`, bucles `for`, `forEach` |
-| Estructuras de datos | Arrays, objetos, `map`, `reduce` |
-| Funcionalidad completa | Cumple todos los requerimientos |
+## Funcionalidades Comunes
 
-## Uso
+- Crear encuestas con múltiples opciones de respuesta.
+- Votar por una opción.
+- Ver resultados en tiempo real.
+- Visualización de porcentaje de votos.
+- Interfaz básica en HTML + JS (sin backend).
+- Manejo dinámico de preguntas y opciones.
+- Contiene al menos 8 preguntas con 2 o más opciones cada una.
 
-Abre el archivo `index.html` desde la carpeta `poo` o `pf` en tu navegador.
+---
+
+## Evaluación según Criterios
+
+| Área Evaluada                                      | Implementación en el Proyecto                    |
+|----------------------------------------------------|--------------------------------------------------|
+| **Operaciones aritméticas y operadores**           | Suma de votos, cálculo de porcentaje, validación de índice |
+| **Control de flujo: condiciones y bucles**         | Uso de `if`, bucles `forEach`, `map`, `reduce`   |
+| **Manipulación de estructuras de datos**           | Objetos, arrays dinámicos y estructuras anidadas |
+| **Funcionalidad completa del sistema de encuestas**| Se cumple a cabalidad en ambas versiones         |
+
+---
+
+## Tecnologías Utilizadas
+
+- HTML5
+- CSS3 (mínimo embebido)
+- JavaScript ES6+
+- Programación Orientada a Objetos (POO)
+- Programación Funcional (PF)
+
+---
+
+## Autor
+
+Desarrollado por Jonathan Mattisine.
+
+---
+
+
 
